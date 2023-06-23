@@ -52,4 +52,10 @@ To evaluate the strategy's performance, the script will conduct an extensive bac
 
 Additionally, a line graph illustrating the portfolio value over time will be plotted and displayed. This visual representation allows for a comprehensive analysis of the strategy's performance trajectory.
 
+A straight line on the graph represents the portfolio value remaining constant over time. It indicates that there were no changes in the portfolio's value during the analyzed period.
+
+In the context of the code you provided, if the portfolio value remains constant and the graph shows a straight line, it means that there were no buy or sell signals triggered by the trading strategy. The position remained neutral, and there were no changes in the portfolio's composition.
+
+It's important to note that the graph is plotted based on the portfolio values calculated at each timestamp, so a straight line indicates stability in the portfolio's value rather than no trading activity.
+
 
