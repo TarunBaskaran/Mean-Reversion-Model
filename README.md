@@ -36,6 +36,8 @@ Enter the stock ticker symbol of the desired security when prompted, such as "AA
 
 Provide the start and end dates for the historical data analysis in the format "YYYY-MM-DD". For example, enter "2022-01-01" as the start date and "2022-12-31" as the end date.
 
+If a csv already exists for the TICKER you entered, you must overwrite the csv, which the program will give you an option to do. 
+
 The script will collect historical pricing data for the specified stock within the given date range.
 
 Using the collected data, the script will calculate statistical measures, including the mean price and standard deviation of the stock's closing prices. These measures play a crucial role in identifying potential trading opportunities based on mean-reversion principles.
